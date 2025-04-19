@@ -192,7 +192,7 @@ ALTER TABLE Courses
  
 SHOW COLUMNS FROM Courses;  -- 8
 ```
-![output](8  https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/8.png
+![output](https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/8.png
 )
 
 Task 6: Find Customers Using a Subquery
@@ -215,7 +215,7 @@ WHERE (SELECT CustomerID
        FROM Bookings
        WHERE Customers.CustomerID = Bookings.CustomerID and BookingDate = "2021-11-11");
 ```
-![output](9  https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png
+![output](https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png
 )
 
 🧾 Task 7: Create a Virtual Table (View)
@@ -248,7 +248,7 @@ CREATE VIEW BookingsView AS
 SELECT * FROM BookingsView;  -- 9
 
 ```
-![output](9  https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png
+![output]( https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png
 )
 
 
@@ -280,7 +280,7 @@ CALL GetBookingsData ("2021-11-13");
 SELECT CONCAT( "ID: ", BookingID, ' ,Date: ', BookingDate, ', Number of guests: ', NumberOfGuests) AS "Booking Details" FROM Bookings;
 ```
 
-![output]( https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png)
+![output](https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png)
 
 
 
