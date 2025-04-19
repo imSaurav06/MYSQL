@@ -215,8 +215,7 @@ WHERE (SELECT CustomerID
        FROM Bookings
        WHERE Customers.CustomerID = Bookings.CustomerID and BookingDate = "2021-11-11");
 ```
-![output](https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png
-)
+![output]()
 
 🧾 Task 7: Create a Virtual Table (View)
 Create a SQL VIEW named BookingsView that shows:
@@ -280,7 +279,7 @@ CALL GetBookingsData ("2021-11-13");
 SELECT CONCAT( "ID: ", BookingID, ' ,Date: ', BookingDate, ', Number of guests: ', NumberOfGuests) AS "Booking Details" FROM Bookings;
 ```
 
-![output](https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png)
+![output](https://github.com/imSaurav06/MYSQL/blob/51513dba0f6b747ca1e00431e01a133172707bc3/image_resources/10.png)
 
 
 
