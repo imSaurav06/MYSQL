@@ -54,10 +54,12 @@ VALUES
 -- The code to see Customers table : 1
 SELECT * FROM Customers;
 
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+
 
 ---
-<img src="(https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)" alt="My Image" width="300"/>
+
+
+
 
 
 
@@ -65,4 +67,8 @@ SELECT * FROM Customers;
    ```bash
    git clone https://github.com/your-username/little-lemon-db.git
    cd little-lemon-db
+
+
+
+![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
 
