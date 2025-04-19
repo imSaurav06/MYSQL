@@ -54,7 +54,7 @@ VALUES
 -- The code to see Customers table : 1
 SELECT * FROM Customers;
 
-
+![output]( image resources/10.png)
 ---
 ![output]( image resources/10.png)
 
