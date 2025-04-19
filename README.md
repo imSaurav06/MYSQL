@@ -56,6 +56,8 @@ SELECT * FROM Customers;
 
 
 ---
+![output](image-path)
+
 
 
 
