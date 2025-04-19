@@ -57,7 +57,7 @@ SELECT * FROM Customers;
 ![output](image%20resources/10.png)
 
 ---
-![output]( image resources/10.png)
+<img src="image_resources/10.png" alt="My Image" width="300"/>
 
 
 
