@@ -56,7 +56,7 @@ SELECT * FROM Customers;
 
 
 ---
-![output](image-path)
+![output]( image resources/10.png)
 
 
 
