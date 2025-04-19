@@ -55,7 +55,8 @@ VALUES
 SELECT * FROM Customers;
 
 ```
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output]( https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/select%20from%20database.png
+)
 
 ```sql
 -- The code to create the Bookings table is as follows:
@@ -88,7 +89,8 @@ VALUES
 SELECT * FROM Bookings;
 
 ```
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output]( https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/select%20from%20database2.png
+)
 
 ```sql
 -- The code to create the restaurant Courses table is as follows:-
@@ -112,7 +114,8 @@ INSERT INTO
 SELECT * FROM Courses;
 ```
 
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output](https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/courses%20table.png
+)
 
 
 ```sql
@@ -121,7 +124,8 @@ SELECT *
 FROM Bookings 
 WHERE BookingDate BETWEEN '2021-11-11' AND '2021-11-13';
 ```
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output](  https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/image%204.png
+)
 
 -- Task 2: Create a JOIN Query.
 
@@ -136,7 +140,8 @@ FROM Customers RIGHT JOIN Bookings
 ON Customers.CustomerID = Bookings.CustomerID 
 WHERE BookingDate = '2021-11-11';
 ```
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output](  https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/image%205.png
+)
 
 🗂️ Task 3: Group Bookings by Date
 Write a SQL query to display each booking date along with the total number of bookings made on that date. Use the GROUP BY BookingDate clause.
@@ -149,7 +154,8 @@ SELECT BookingDate, COUNT(BookingDate)
 FROM Bookings 
 GROUP BY BookingDate;
 ```
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output](  https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/image%206.png
+)
 
 
 💾 Task 4: Update Course Cost Using REPLACE
@@ -165,7 +171,8 @@ REPLACE INTO Courses (CourseName, Cost) VALUES ("Kabasa", 20.00);
 SELECT * FROM Courses;
 ```
 
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output](  https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/image%207.png
+)
 
 
 🛠️ Task 5: Alter Table to Add Ingredients Column
@@ -185,7 +192,8 @@ ALTER TABLE Courses
  
 SHOW COLUMNS FROM Courses;  -- 8
 ```
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output](8  https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/8.png
+)
 
 Task 6: Find Customers Using a Subquery
 Write a SQL statement using a subquery to display the full names of customers who made bookings on 2021-11-11.
@@ -207,7 +215,8 @@ WHERE (SELECT CustomerID
        FROM Bookings
        WHERE Customers.CustomerID = Bookings.CustomerID and BookingDate = "2021-11-11");
 ```
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output](9  https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png
+)
 
 🧾 Task 7: Create a Virtual Table (View)
 Create a SQL VIEW named BookingsView that shows:
@@ -239,7 +248,8 @@ CREATE VIEW BookingsView AS
 SELECT * FROM BookingsView;  -- 9
 
 ```
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output](9  https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png
+)
 
 
 
@@ -270,7 +280,7 @@ CALL GetBookingsData ("2021-11-13");
 SELECT CONCAT( "ID: ", BookingID, ' ,Date: ', BookingDate, ', Number of guests: ', NumberOfGuests) AS "Booking Details" FROM Bookings;
 ```
 
-![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
+![output]( https://github.com/imSaurav06/MYSQL/blob/f2b30b7d2b08ceab084978946fd6606dfbd59fe2/image_resources/9.png)
 
 
 
