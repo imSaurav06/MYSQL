@@ -54,10 +54,10 @@ VALUES
 -- The code to see Customers table : 1
 SELECT * FROM Customers;
 
-![output](image%20resources/10.png)
+![output](https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)
 
 ---
-<img src="image_resources/10.png" alt="My Image" width="300"/>
+<img src="(https://github.com/imSaurav06/MYSQL/blob/333cfa1fe0542f6c329da9662c32bd3d0b681f33/image_resources/select%20from%20database.png)" alt="My Image" width="300"/>
 
 
 
