@@ -13,33 +13,33 @@ USE Little_Lemon;
 CREATE TABLE Customers(CustomerID INT NOT NULL PRIMARY KEY,
  FullName VARCHAR(100) NOT NULL,
  PhoneNumber INT NOT NULL UNIQUE
- );
+ ); 
  
 -- The code to see if the table is created:
 SHOW TABLES;
 
 -- The code to populate the Customers table is as follows:
 INSERT INTO 
-Customers(CustomerID, FullName, PhoneNumber) 
+Customers(CustomerID, FullName, PhoneNumber)  
 VALUES 
 (1, "Vanessa McCarthy", 0757536378), 
-(2, "Marcos Romero", 0757536379), 
+(2, "Marcos Romero", 0757536379),  
 (3, "Hiroki Yamane", 0757536376), 
 (4, "Anna Iversen", 0757536375), 
 (5, "Diana Pinto", 0757536374),     
-(6, "Altay Ayhan", 0757636378),      
+(6, "Altay Ayhan", 0757636378),       
 (7, "Jane Murphy", 0753536379),      
 (8, "Laurina Delgado", 0754536376),      
 (9, "Mike Edwards", 0757236375),     
-(10, "Karl Pederson", 0757936374);
+(10, "Karl Pederson", 0757936374); 
 
 -- The code to see Customers table : 1
 SELECT * FROM Customers;
-
+ 
 -- The code to create the Bookings table is as follows:
 CREATE TABLE Bookings(
 BookingID INT, 
-BookingDate DATE,
+BookingDate DATE, 
 TableNumber INT, 
 NumberOfGuests INT,
 CustomerID INT
