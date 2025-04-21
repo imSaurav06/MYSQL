@@ -1,6 +1,6 @@
--- MySQL Database Project
+-- MySQL Database Project 
 
--- The code to create the database is as follows:-
+-- The code to create the database is as  follows:-
 CREATE DATABASE IF NOT EXISTS Little_Lemon;
 
 -- The code to see if the database is created:-
@@ -39,7 +39,7 @@ SELECT * FROM Customers;
 -- The code to create the Bookings table is as follows:
 CREATE TABLE Bookings(
 BookingID INT, 
-BookingDate DATE, 
+BookingDate DATE,  
 TableNumber INT, 
 NumberOfGuests INT,
 CustomerID INT
