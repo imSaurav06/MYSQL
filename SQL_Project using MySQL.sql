@@ -121,7 +121,7 @@ SHOW COLUMNS FROM DeliveryAddress;
 
 -- Alter Table Structure and then see the columns from Courses.
 ALTER TABLE Courses
- ADD COLUMN Ingredients VARCHAR(255);
+ ADD COLUMN Ingredients VARCHAR(255); 
  
 SHOW COLUMNS FROM Courses;  -- 8
 
