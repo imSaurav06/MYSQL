@@ -139,7 +139,7 @@ CREATE VIEW BookingsView AS
  WHERE NumberOfGuests > 3 AND BookingDate < "2021-11-13";    
  
 SELECT * FROM BookingsView;  -- 9
-
+ 
 -- Create a Stored Procedure and then call the Stored Procedure.
 CREATE PROCEDURE GetBookingsData (InputDate DATE) 
 SELECT * 

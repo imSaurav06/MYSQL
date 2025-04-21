@@ -6,11 +6,11 @@ A MySQL-based relational database project for **Little Lemon**, a family-owned M
 
 ---
 
-## 📖 About Little Lemon
+## 📖 About Little Lemon 
 
 **Little Lemon** is a rustic Mediterranean restaurant owned by Italian brothers Mario and Adrian. Inspired by family recipes and Mediterranean cultures (Italian, Greek, Turkish), the restaurant serves a seasonal menu of 12–15 dishes in a relaxed setting with moderate prices.
 
----
+--- 
 
 ## 🧰 Prerequisites
 
