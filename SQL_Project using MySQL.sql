@@ -136,7 +136,7 @@ WHERE (SELECT CustomerID
 CREATE VIEW BookingsView AS
  SELECT BookingID, BookingDate, NumberOfGuests 
  FROM Bookings
- WHERE NumberOfGuests > 3 AND BookingDate < "2021-11-13";
+ WHERE NumberOfGuests > 3 AND BookingDate < "2021-11-13";    
  
 SELECT * FROM BookingsView;  -- 9
 
