@@ -51,10 +51,10 @@ INSERT INTO Bookings
 VALUES
 (10, '2021-11-10', 7, 5, 1),  
 (11, '2021-11-10', 5, 2, 2),  
-(12, '2021-11-10', 3, 2, 4), 
+(12, '2021-11-10', 3, 2, 4),  
 (13, '2021-11-11', 2, 5, 5),  
 (14, '2021-11-11', 5, 2, 6),  
-(15, '2021-11-11', 3, 2, 7), 
+(15, '2021-11-11', 3, 2, 7),  
 (16, '2021-11-11', 3, 5, 1),  
 (17, '2021-11-12', 5, 2, 2),  
 (18, '2021-11-12', 3, 2, 4), 
@@ -134,7 +134,7 @@ WHERE (SELECT CustomerID
        
 -- Create a Virtual Table and then see the Virtual Table.
 CREATE VIEW BookingsView AS
- SELECT BookingID, BookingDate, NumberOfGuests
+ SELECT BookingID, BookingDate, NumberOfGuests 
  FROM Bookings
  WHERE NumberOfGuests > 3 AND BookingDate < "2021-11-13";
  
@@ -144,7 +144,7 @@ SELECT * FROM BookingsView;  -- 9
 CREATE PROCEDURE GetBookingsData (InputDate DATE) 
 SELECT * 
 FROM Bookings 
-WHERE BookingDate = InputDate;
+WHERE BookingDate = InputDate; 
 CALL GetBookingsData ("2021-11-13");
 
 -- Use the String Function.
