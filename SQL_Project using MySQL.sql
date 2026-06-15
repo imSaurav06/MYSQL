@@ -1,12 +1,12 @@
 -- MySQL Database Project 
 
--- The code to create the database is as  follows:-
+-- The code to create the database is as  follows :-
 CREATE DATABASE IF NOT EXISTS Little_Lemon;
 
--- The code to see if the database is created:-
+-- The code to see if the database is created :-
 SHOW DATABASES;
 
--- The code to use the database is as follows:-
+-- The code to use the database is as follows :-
 USE Little_Lemon;
 
 -- The code to create the Customers table is as follows:

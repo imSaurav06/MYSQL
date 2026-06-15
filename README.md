@@ -1,6 +1,6 @@
 # SQL_Database_Project.sql
 
-# 🍋 Little Lemon Restaurant - MySQL Database Project
+# 🍋 Little Lemon Restaurant -- MySQL Database Project
 
 A MySQL-based relational database project for **Little Lemon**, a family-owned Mediterranean restaurant in Chicago. This project models customers, bookings, and menu courses, supporting efficient data management and potential business analytics.
 
