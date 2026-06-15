@@ -15,10 +15,10 @@ CREATE TABLE Customers(CustomerID INT NOT NULL PRIMARY KEY,
  PhoneNumber INT NOT NULL UNIQUE
  ); 
  
--- The code to see if the table is created:
+--- The code to see if the table is created :-
 SHOW TABLES;
 
--- The code to populate the Customers table is as follows:
+-- The code to populate the Customers table is as follows:-
 INSERT INTO 
 Customers(CustomerID, FullName, PhoneNumber)  
 VALUES 
