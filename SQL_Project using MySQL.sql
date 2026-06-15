@@ -18,7 +18,7 @@ CREATE TABLE Customers(CustomerID INT NOT NULL PRIMARY KEY,
 --- The code to see if the table is created :-
 SHOW TABLES;
 
--- The code to populate the Customers table is as follows:-
+---The code to populate the Customers table is as follows:-
 INSERT INTO 
 Customers(CustomerID, FullName, PhoneNumber)  
 VALUES 
@@ -60,6 +60,8 @@ VALUES
 (18, '2021-11-12', 3, 2, 4), 
 (19, '2021-11-13', 7, 5, 6),  
 (20, '2021-11-14', 5, 2, 3),  
+(21, '2021-11-14', 3, 2, 4);
+(21, '2021-11-14', 3, 2, 4);
 (21, '2021-11-14', 3, 2, 4);
 
 -- The code to see Bookings table:- 2
