@@ -68,6 +68,7 @@ VALUES
 SELECT * FROM Bookings;
 
 -- The code to create the restaurant Courses table is as follows:-
+-- The code to create the restaurant Courses table is as f0llows:-
 CREATE TABLE Courses(
 CourseName VARCHAR(255) PRIMARY KEY,
  Cost Decimal(4,2)
